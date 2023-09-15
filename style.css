@@ -1,0 +1,39 @@
+body{
+    font-size: 23px;
+    font-family: ui-rounded;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around; /* Espacer les éléments horizontalement */
+    align-items: center;
+}
+.titre{
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.bg{
+    background-color: gray;
+    padding: 30px;
+}
+.feuille{
+    background-color: aliceblue;
+    padding: 150px;
+    max-width: 60%;
+    margin: auto;
+
+}
+.propos{
+    margin-top: 45px;
+    margin-bottom: 75px;
+}
+
+.imagee{
+    width: 100%;
+    height: 400px
+}
+
+.moi{
+    height: 100px;
+    width: 100px;
+}
