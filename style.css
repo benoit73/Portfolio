@@ -1,6 +1,15 @@
 body {
-    font-size: 23px;
-    font-family: ui-rounded;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 25px;
 }
 
 .navbar {
@@ -8,21 +17,31 @@ body {
     justify-content: space-around;
     /* Espacer les éléments horizontalement */
     align-items: center;
+    background-color: white;
 }
 
 .titre {
     vertical-align: bottom;
     cursor: pointer;
+    color: rgb(0, 0, 112);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.titre:hover {
+    color: black;
 }
 
 .bg {
     background-color: gray;
-    padding: 30px;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 .feuille {
     background-color: aliceblue;
     padding: 150px;
+    padding-top: 30px;
     max-width: 60%;
     margin: auto;
 
@@ -46,12 +65,17 @@ body {
 }
 
 .imagee {
-    height: 700px;
+    height: 100%;
     width: 100%;
-    background-color: yellow;
+    position: fixed;
+    z-index: -1;
 }
 
-
+.ouverture {
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+}
 
 .progressContainer {
     background-color: grey;
@@ -68,6 +92,9 @@ body {
     width: 70%;
 }
 
+.progressBarGroup {
+    margin-left: 30px;
+}
 
 
 .entier {
@@ -86,4 +113,19 @@ body {
     justify-content: space-between;
     margin: 0px;
     padding: 0px;
+}
+
+
+.bot {
+    height: 100px;
+    background-color: aliceblue;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.liTitre {
+    margin-bottom: 20px;
 }
