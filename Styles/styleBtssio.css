@@ -1,0 +1,19 @@
+.quart{
+    display : flex;
+    
+}
+
+.img1{
+    margin-right : 90px;
+}
+
+
+
+.centre{
+    text-align: center;
+}
+
+.imgCentre{
+    margin: 0 auto;
+    display: block;
+}
